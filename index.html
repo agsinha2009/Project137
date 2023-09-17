@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Project 135</title>
+</head>
+<body>
+    <h1 class="btn-primary" id="h1" style="text-decoration: underline;">VIDEO OBJECT DETECTION</h1>
+    <h4 class="btn-primary">Please type something in the input. Then click "Start" to start the video. In the input, you can write a object to highlight this;</h4>
+    
+    <button class="btn btn-danger" onclick="start()">Start</button>
+    <br>
+    <span>
+        <h3 id="object_name" class="btn btn-success"></h3>
+        <h3 id="number" class="btn btn-warning"></h3>
+    </span>
+    <br>
+    <h3 id="status" style="background-color: brown; color: white;" class="btn"></h3>
+    <br>
+    <input type="text" id="input_box">
+
+
+    <script src="main.js"></script>
+</body>
+</html>
